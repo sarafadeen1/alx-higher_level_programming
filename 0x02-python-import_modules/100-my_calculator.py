@@ -1,4 +1,6 @@
-import sys
+#!/usr/bin/python3
+if __name__ == "__main__":
+    import sys
 from calculator_1 import add, subtract, multiply, divide
 
 if len(sys.argv) != 4:
